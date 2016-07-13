@@ -1,0 +1,143 @@
+\begin{thebibliography}{10}
+
+\bibitem{Herlihy:Progress}
+Herlihy, M., Shavit, N.:
+\newblock On the nature of progress.
+\newblock In Fernàndez~Anta, A., Lipari, G., Roy, M., eds.: The 15th
+  International Conference on Principles of Distributed Systems (OPODIS'11).
+  Volume 7109 of LNCS.
+\newblock Springer Berlin Heidelberg (2011)  313--328
+
+\bibitem{Cormen:Algorithms}
+Cormen, T.H., Leiserson, C.E., Rivest, R.L., Stein, C.:
+\newblock Introduction to Algorithms. 3rd edn.
+\newblock The MIT Press (2009)
+
+\bibitem{Herlihy:TAOMP}
+Herlihy, M., Shavit, N.:
+\newblock The Art of Multiprocessor Programming. revised 1st edn.
+\newblock Elsevier, Inc, Waltham, Massachussetts (2012)
+
+\bibitem{Heller:LazyList}
+Heller, S.,  et~al.:
+\newblock A lazy concurrent list-based set algorithm.
+\newblock In: The 9th International Conference on Principles of Distributed
+  Systems (OPODIS'05). LNCS, Berlin, Heidelberg, Springer-Verlag (2006)  3--16
+
+\bibitem{Shao:UnrollingLists}
+Shao, Z., Reppy, J.H., Appel, A.W.:
+\newblock Unrolling lists.
+\newblock In: ACM Conference on LISP and Functional Programming (LFP'94), New
+  York, NY, USA, ACM (1994)  185--195
+
+\bibitem{Demaine:CacheOblivious}
+Demaine, E.:
+\newblock Cache-oblivious algorithms and data structures.
+\newblock Lecture Notes from the EEF Summer School on Massive Data Sets (2002)
+
+\bibitem{Patterson:COD5}
+Patterson, D.A., Hennessy, J.L.:
+\newblock Computer Organization and Design: The Hardware/Software Interface.
+  5th edn.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA (2013)
+
+\bibitem{Braginsky}
+Braginsky, A., Petrank, E.:
+\newblock Locality-conscious lock-free linked lists.
+\newblock In Aguilera, M., Yu, H., Vaidya, N., Srinivasan, V., Choudhury, R.,
+  eds.: 12th International Conference of Distributed Computing and Networking
+  (ICDCN'11). Volume 6522 of LNCS.
+\newblock Springer Berlin Heidelberg (2011)  107--118
+
+\bibitem{Valois:LFLists}
+Valois, J.D.:
+\newblock Lock-free linked lists using compare-and-swap.
+\newblock In: 14th ACM Symposium on Principles of Distributed Computing
+  (PODC'95), New York, NY, USA, ACM (1995)  214--222
+
+\bibitem{Michael:LFListSets}
+Michael, M.M.:
+\newblock High performance dynamic lock-free hash tables and list-based sets.
+\newblock In: 14th ACM Symposium on Parallelism in Alorithms and Architectures
+  (SPAA'02). LNCS, New York, NY, USA, ACM (2002)  73--82
+
+\bibitem{Harris:PragmaticLists}
+Harris, T.L.:
+\newblock A pragmatic implementation of non-blocking linked-lists.
+\newblock In: 15th International Symposium on Distributed Computing (DISC'01).
+  LNCS, London, UK, UK, Springer-Verlag (2001)  300--314
+
+\bibitem{Stroustrup:Design}
+Stroustrup, B.:
+\newblock The Design and Evolution of C++.
+\newblock ACM Press/Addison-Wesley Publishing Co., New York, NY, USA (1994)
+
+\bibitem{Afek:Atomic}
+Afek, Y.,  et~al.:
+\newblock Atomic snapshots of shared memory.
+\newblock J. ACM \textbf{40} (1993)  873--890
+
+\bibitem{Anderson:Composite}
+Anderson, J.H.:
+\newblock Composite registers.
+\newblock In: Distributed Computing. (1993)  15--30
+
+\bibitem{Platz:Unrolled}
+Platz, K., Mittal, N., Venkatesan, S.:
+\newblock Practical concurrent unrolled linked lists using lazy
+  synchronization.
+\newblock Technical Report UTDCS-09-14, The University of Texas at Dallas
+  Computer Science Department (2014)
+
+\bibitem{michael:Hazard}
+Michael, M.:
+\newblock Hazard pointers: Safe memory reclamation for lock-free objects.
+\newblock IEEE Trans. Parallel Distrib. Syst \textbf{15} (2004)  491--504
+
+\bibitem{Hennessy:CArch5}
+Hennessy, J.L., Patterson, D.A.:
+\newblock Computer Architecture: A Quantitative Approach. 5th edn.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA (2011)
+
+\bibitem{Aho:Compilers}
+Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D.:
+\newblock Compilers: Principles, Techniques, and Tools. 2nd edn.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA (2006)
+
+\bibitem{BrownER13}
+Brown, T., Ellen, F., Ruppert, E.:
+\newblock Pragmatic primitives for non-blocking data structures.
+\newblock In: {ACM} Symposium on Principles of Distributed Computing, {PODC}
+  '13, Montreal, QC, Canada, July 22-24, 2013. (2013)  13--22
+
+\bibitem{DBLP:conf/wdag/HarrisFP02}
+Harris, T.L., Fraser, K., Pratt, I.A.:
+\newblock A practical multi-word compare-and-swap operation.
+\newblock In Malkhi, D., ed.: Distributed Computing, 16th International
+  Conference, {DISC} 2002, Toulouse, France, October 28-30, 2002 Proceedings.
+  Volume 2508 of Lecture Notes in Computer Science., Springer (2002)  265--279
+
+\bibitem{Joung:GroupME}
+Joung, Y.J.:
+\newblock Asynchronous group mutual exclusion (extended abstract).
+\newblock In: 17th ACM Symposium on Principles of Distributed Computing
+  (PODC'98), New York, NY, USA, ACM (1998)  51--60
+
+\bibitem{Shalev:SplitOrder}
+Shalev, O., Shavit, N.:
+\newblock Split-ordered lists: Lock-free extensible hash tables.
+\newblock J. ACM \textbf{53} (2006)  379--405
+
+\bibitem{Herlihy:Skiplist1}
+Herlihy, M., Lev, Y., Luchangco, V., Shavit, N.:
+\newblock A simple optimistic skiplist algorithm.
+\newblock In: 14th International Colloqium On Structural Information and
+  Communication Complexity (SIROCCO'07), Berlin, Heidelberg, Springer-Verlag
+  (2007)  124--138
+
+\bibitem{FraserPhD}
+Fraser, K.:
+\newblock {Practical Lock-Freedom}.
+\newblock PhD thesis, Kings College, University of Cambridge (2003)
+
+\end{thebibliography}

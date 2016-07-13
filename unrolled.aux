@@ -1,0 +1,113 @@
+\relax 
+\citation{Herlihy:Progress}
+\@writefile{toc}{\contentsline {title}{Practical Unrolled Linked Lists Using Lazy Synchronization}{1}}
+\@writefile{toc}{\authcount {3}}
+\@writefile{toc}{\contentsline {author}{Kenneth Platz\and Neeraj Mittal\unskip {}\and S. Venkatesan}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{Cormen:Algorithms}
+\citation{Herlihy:TAOMP}
+\citation{Heller:LazyList}
+\citation{Shao:UnrollingLists}
+\citation{Demaine:CacheOblivious,Patterson:COD5}
+\citation{Braginsky}
+\citation{Demaine:CacheOblivious}
+\citation{Braginsky}
+\@writefile{toc}{\contentsline {paragraph}{Our Contributions:}{2}}
+\citation{Valois:LFLists}
+\citation{Michael:LFListSets}
+\citation{Harris:PragmaticLists}
+\citation{Heller:LazyList}
+\citation{Braginsky}
+\@writefile{toc}{\contentsline {paragraph}{Roadmap:}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}}
+\newlabel{Section:Related}{{2}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}System Model}{3}}
+\newlabel{Section:Model}{{3}{3}}
+\citation{Stroustrup:Design}
+\@writefile{toc}{\contentsline {section}{\numberline {4}An Unrolled Linked List Using Lazy Synchronization}{4}}
+\newlabel{Section:Algorithms}{{4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Algorithm Overview}{4}}
+\citation{Afek:Atomic,Anderson:Composite}
+\citation{Braginsky}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Layout of the unrolled linked list}}{5}}
+\newlabel{Layout}{{1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Algorithm Detail}{5}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Scan}}{5}}
+\newlabel{Algorithm:Scan}{{1}{5}}
+\citation{Heller:LazyList}
+\citation{Cormen:Algorithms}
+\newlabel{Lookup:Loopbegin}{{12}{6}}
+\newlabel{Lookup:AtomicRead}{{13}{6}}
+\newlabel{Lookup:Loopend}{{14}{6}}
+\newlabel{LP:Lookup3}{{17}{6}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Lookup}}{6}}
+\newlabel{Algorithm:Lookup}{{2}{6}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces Validate}}{6}}
+\newlabel{Algorithm:Validate}{{3}{6}}
+\newlabel{Insert:Contains}{{26}{7}}
+\newlabel{Insert:FindFirst}{{27}{7}}
+\newlabel{LP:Insert}{{29}{7}}
+\newlabel{LP:Split1}{{35}{7}}
+\newlabel{LP:Split2}{{38}{7}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces Insert}}{7}}
+\newlabel{Algorithm:Insert}{{4}{7}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {5}{\ignorespaces Split}}{7}}
+\newlabel{Algorithm:Split}{{5}{7}}
+\newlabel{Remove:Contains}{{59}{8}}
+\newlabel{Remove:NextSmallest}{{63}{8}}
+\newlabel{LP:RemoveAnchor}{{64}{8}}
+\newlabel{LP:Remove}{{67}{8}}
+\newlabel{MergeTail}{{72}{8}}
+\newlabel{EmptyNode}{{74}{8}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {6}{\ignorespaces Remove}}{8}}
+\newlabel{Algorithm:Remove}{{6}{8}}
+\citation{Platz:Unrolled}
+\@writefile{loa}{\contentsline {algocf}{\numberline {7}{\ignorespaces Merge}}{9}}
+\newlabel{Algorithm:Merge}{{7}{9}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {8}{\ignorespaces Rebalance}}{9}}
+\newlabel{Algorithm:Rebalance}{{8}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{Optimization}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Correctness Proof}{9}}
+\citation{Heller:LazyList}
+\citation{Harris:PragmaticLists}
+\citation{Michael:LFListSets,michael:Hazard}
+\citation{Braginsky}
+\citation{Platz:Unrolled}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Evaluation}{10}}
+\newlabel{Section:Experiments}{{5}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experiment Setup}{10}}
+\expandafter \gdef \csname pgfplots@labelstyle@plots:Lazy\endcsname {color={black!100},mark={star}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:Lazy\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!100},mark={star}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots:LockFree\endcsname {color={black!75},mark={x}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:LockFree\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!75},mark={x}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots:Chunked\endcsname {color={black!75},mark={square}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:Chunked\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!75},mark={square}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots:Unrolled\endcsname {mark={*},densely dotted={\pgfkeysnovalue }}
+\expandafter \gdef \csname pgfplots@show@ref@plots:Unrolled\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {mark={*},densely dotted={\pgfkeysnovalue }}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Experimental Results}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Relative throughput at 24 threads with respect to the Lazy algorithm}}{11}}
+\newlabel{Figure:RelativePerf}{{1}{11}}
+\newlabel{plots:Lazy}{{\expandafter\protect\csname pgfplots@show@ref@plots:Lazy\endcsname}{12}}
+\newlabel{plots:LockFree}{{\expandafter\protect\csname pgfplots@show@ref@plots:LockFree\endcsname}{12}}
+\newlabel{plots:Chunked}{{\expandafter\protect\csname pgfplots@show@ref@plots:Chunked\endcsname}{12}}
+\newlabel{plots:Unrolled}{{\expandafter\protect\csname pgfplots@show@ref@plots:Unrolled\endcsname}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Experimental Results}}{12}}
+\newlabel{Figure:Performance}{{2}{12}}
+\citation{Hennessy:CArch5}
+\citation{Aho:Compilers}
+\expandafter \gdef \csname pgfplots@labelstyle@plots:ChunkedNo\endcsname {color={black!50},mark={triangle}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:ChunkedNo\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!50},mark={triangle}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots:ChunkedYes\endcsname {mark={square},color={black!100}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:ChunkedYes\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {mark={square},color={black!100}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots:UnrolledNo\endcsname {color={black!50},mark={star}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:UnrolledNo\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!50},mark={star}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots:UnrolledYes\endcsname {mark={o},color={black!100}}
+\expandafter \gdef \csname pgfplots@show@ref@plots:UnrolledYes\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {mark={o},color={black!100}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots2:Chunked\endcsname {color={black!75},mark={square}}
+\expandafter \gdef \csname pgfplots@show@ref@plots2:Chunked\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!75},mark={square}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots2:Unrolled\endcsname {mark={*},densely dotted={\pgfkeysnovalue }}
+\expandafter \gdef \csname pgfplots@show@ref@plots2:Unrolled\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {mark={*},densely dotted={\pgfkeysnovalue }}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots3:Chunked\endcsname {color={black!75},mark={square}}
+\expandafter \gdef \csname pgfplots@show@ref@plots3:Chunked\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler options/.cd, start=\relax , end macro=\relax , point macro=\pgfutil@gobble , jump macro=\relax , special macro=\pgfutil@gobble , point macro=\pgf@plot@line@handler , jump=\global \let \pgf@plotstreampoint \pgf@plot@line@handler@move }\begingroup \escapechar =-1 \edef \pgfplotsplothandlername {\string \pgfplothandlerlineto }\pgfmath@smuggleone \pgfplotsplothandlername \endgroup }\pgfkeysdef {/pgfplots/legend image code}{\draw [mark repeat=2,mark phase=2,] plot coordinates { (0cm,0cm) (0.3cm,0cm) (0.6cm,0cm)};}\pgfkeysdef {/pgfplots/every legend image post}{}\pgfkeyssetvalue {/pgfplots/mark list fill}{.!80!black}\pgfkeysdef {/pgfplots/every crossref picture}{\pgfkeysalso {baseline,yshift=0.3em}}\pgfplots@show@small@legendplots {color={black!75},mark={square}}{}}\ifpgfpicture \scope [/pgfplots/every crossref picture]\pgfplots@draw@image \endscope \else \expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \begingroup \tikzappendtofigurename {_crossref}\fi \tikz [/pgfplots/every crossref picture]{\pgfplots@draw@image }\expandafter \ifx \csname tikzappendtofigurename\endcsname \relax \else \endgroup \fi \fi \endgroup }
+\expandafter \gdef \csname pgfplots@labelstyle@plots3:Unrolled\endcsname {mark={*},densely dotted={\pgfkeysnovalue }}
+\expandafter \gdef \csname pgfplots@show@ref@plots3:Unrolled\endcsname {\begingroup \def \pgfplots@draw@image {\def \tikz@plot@handler {\pgfkeys {/pgf/plots/@handler optio
